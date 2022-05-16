@@ -1,0 +1,10 @@
+#Write Program Of Swapping Two Values By XOR
+a=int(input("Enter Your Value a:")
+b=int(input("Enter Your Value b:")
+#Enter The Original Values
+a=a^b
+b=a^b
+a=a^b
+#Swapping Values Are
+print("The Original Value Of a:".format{})
+print("The Original Value Of b:".format{})

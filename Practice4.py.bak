@@ -1,0 +1,9 @@
+#Practice4.py
+#Simple if
+icard=input("Do You Have IDenty Card (Yes/No) :")
+if(icard=="Yes"):
+	print("Welcome To Lab")
+	print("Do You Have Laptop")
+	print("Open The PC And Start The Practice")
+print("==================================")
+print("Program Execution Successfull")
