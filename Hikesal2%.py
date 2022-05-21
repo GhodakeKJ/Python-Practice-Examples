@@ -1,0 +1,7 @@
+print("Enter List Of Values Seperated By Space :")
+lst=(float(val)for val in input().split())
+pshikesal=list(map(lambda val:val+val*(2/100),list(filter(lambda val:val>0,lst))))
+nshikesal=list(map(lambda val:val+val*(2/100),list(filter(lambda val:val<0,lst))))
+print("Given List Elements :{}".format(lst))
+print("Hike Positive Values Of Elements In 2% List :",pshikesal)
+print("Hike Negative Values Of Elements In 2% List :",nshikesal)
